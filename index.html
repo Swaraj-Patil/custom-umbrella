@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Custom Umbrella | Top selling umbrellas</title>
+</head>
+<body>
+
+    <!-- START OF Main Section -->
+
+    <!-- <div class="loader"></div> -->
+    <div class="flex-center wrapper section-padding">
+        <div class="flex-center wrapper_umbrella">
+            <div class="preloader"></div>
+            <div class="wrapper_umbrella-holder">
+                <div class="wrapper_display-logo"></div>
+            </div>
+        </div>
+        
+        <div class="flex-center wrapper_info">
+            <h1>Custom Umbrella</h1>
+            <div class="wrapper_color-palette">
+                <ul>
+                    <li id="black" style="background-color: #2d2926"></li>
+                    <li id="grey" style="background-color: #707372"></li>
+                    <li id="dBlue" style="background-color: #003057"></li>
+                    <li id="pink" style="background-color: #d0006f"></li>
+                    <li id="blue" style="background-color: #00a3e0" class="active"></li>
+                    <li id="yellow" style="background-color: #fdda68"></li>
+                    <li id="orange" style="background-color: #e87722"></li>
+                    <li id="red" style="background-color: #ef3340"></li>
+                </ul>
+            </div>
+            <h3>Customize your umbrella</h3>
+            <p>
+                Upload a logo for an instant preview.
+            </p>
+            <h5>.png and .jpg files only. Max file size is 5MB.</h5>
+            <div class="flex-center" style="position: relative">
+                <input 
+                    type="file" 
+                    name="logoInput" 
+                    id="logoInput" 
+                    accept="image/png, image/jpg"
+                    data-multiple-caption="{count} files selected"
+                >
+                <label for="logoInput">UPLOAD LOGO</label>
+                <img width="30" src="./assets/upload_icon.png" alt="Upload">
+            </div>
+        </div>
+    </div>
+
+    <!-- END OF Main Section -->
+
+    <script src="./main.js"></script>
+</body>
+</html>
